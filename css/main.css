@@ -65,7 +65,8 @@
   font-size: 2em;
 }
 
-.bottom {
+.div bottom {
+  width: 100%;
   background-color: teal green;
   color: teal green;
 }
