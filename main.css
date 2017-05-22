@@ -1,0 +1,103 @@
+*{
+  margin:0;
+}
+.navigation {
+  background-color: orange;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+.nav div-img {
+  float: left;
+  width: 150px;
+  height: 200px;
+}
+
+.navigation img{
+  position: absolute;
+  left: 130px;
+  top: -90px;
+}
+
+.navigation ul{
+  margin:0;
+  padding: 0;
+}
+
+.navigation li {
+  display: inline-block;
+  background-color: inherit;
+  margin-top: 80px;
+  margin-bottom:20px;
+  padding-right: 8%;
+
+}
+
+ a {
+  color: white;
+  text-decoration: none;
+
+
+}
+.search-button{
+  position: absolute;
+  top: 150px;
+  right: 100px;
+  margin: 5px;
+  padding: 10px;
+
+}
+
+.section{
+  display: table;
+}
+.box img{
+  float: left;
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  width: 20%;
+  padding: 50px;
+  margin: 20px;
+}
+.box p{
+  position: relative;
+  right: 400px;
+  top: 250px;
+  text-align: right;
+  text-decoration-color: orange;
+  font-size: 2em;
+}
+
+.box button {
+  position: relative;
+  float: right;
+  background-color: orange;
+  height: 35px;
+  width: 120px;
+  top: 280px;
+  right: 600px;
+}
+
+ button2{
+   position: relative;
+   float: right;
+   background-color: teal;
+   width: 120px;
+   height: 35px;
+   top: 280px;
+   right: 350px;
+
+ }
+
+
+
+div.bottom {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 90px;
+  background-color: teal;
+
+}
